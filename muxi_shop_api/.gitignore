@@ -1,0 +1,65 @@
+# === Python 虚拟环境 (macOS) ===
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+bin/
+include/
+lib/
+lib64/
+pyvenv.cfg
+
+# === Pipenv 相关 ===
+Pipfile.lock
+.python-version
+
+# === Python 编译缓存 ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# === Django 特定文件 ===
+*.sqlite3
+*.sqlite
+db.sqlite3
+media/
+staticfiles/
+
+# === 包管理和分发 ===
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+# === 测试和覆盖率 ===
+.pytest_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# === Jupyter 笔记本 ===
+.ipynb_checkpoints
+
+# === 环境变量 ===
+.env
+.env.local
+
+# === 其他 ===
+instance/
+.webassets-cache
+.scrapy
+docs/_build/
